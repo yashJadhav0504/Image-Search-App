@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Advanced Image Search App</title>
+</head>
+<body>
+    
+    <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+
+    <div class="container">
+       
+        <div class="header-section">
+            <h1 class="heading">Image Search App</h1>
+            <div class="stats-container">
+                📊 Images Loaded: <span id="imageCount">0</span>
+            </div>
+        </div>
+
+        <!-- Search Section -->
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search for amazing images..." onkeypress="handleEnter(event)">
+            <button class="search-btn" onclick="searchImages()">🔍 Search</button>
+        </div>
+
+        <!-- Category Filter Buttons -->
+        <div class="filter-container">
+            <button class="filter-btn active" data-category="all" onclick="filterCategory('all')">All</button>
+            <button class="filter-btn" data-category="nature" onclick="filterCategory('nature')">🌿 Nature</button>
+            <button class="filter-btn" data-category="technology" onclick="filterCategory('technology')">💻 Technology</button>
+            <button class="filter-btn" data-category="animals" onclick="filterCategory('animals')">🐾 Animals</button>
+            <button class="filter-btn" data-category="architecture" onclick="filterCategory('architecture')">🏛️ Architecture</button>
+            <button class="filter-btn" data-category="food" onclick="filterCategory('food')">🍔 Food</button>
+            <button class="filter-btn" data-category="people" onclick="filterCategory('people')">👥 People</button>
+            <button class="filter-btn" data-category="travel" onclick="filterCategory('travel')">✈️ Travel</button>
+        </div>
+
+        <!-- Skeleton Loading -->
+        <div id="skeletonContainer" class="skeleton-container"></div>
+
+        <!-- Image Grid Container -->
+        <div id="imageContainer" class="image-grid"></div>
+
+        <!-- Loading Spinner -->
+        <div class="loading-spinner" id="loadingSpinner">
+            <div class="spinner"></div>
+            <p>Loading more images...</p>
+        </div>
+
+        <!-- No Results Message -->
+        <div class="no-results" id="noResults">
+            😢 No images found. Try another search!
+        </div>
+
+        <!-- Show More Button -->
+        <div class="button-container">
+            <button class="show-more" onclick="showMore()">Show More</button>
+        </div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+        <button class="lightbox-close" onclick="closeLightbox()">×</button>
+        <div class="lightbox-content">
+            <img id="lightboxImage" src="" alt="">
+            <div class="lightbox-info">
+                <h3 id="lightboxPhotographer"></h3>
+                <div class="lightbox-stats">
+                    <span id="lightboxLikes"></span>
+                    <span id="lightboxViews"></span>
+                </div>
+            </div>
+            <div class="lightbox-controls">
+                <button class="lightbox-btn" onclick="downloadImage()">⬇️ Download</button>
+                <button class="lightbox-btn" onclick="shareImage()">📤 Share</button>
+                <button class="lightbox-btn" onclick="copyImageURL()">🔗 Copy URL</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
