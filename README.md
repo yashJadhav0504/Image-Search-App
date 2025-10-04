@@ -6,7 +6,6 @@ A stunning, modern image search application built with vanilla HTML, CSS, and Ja
 
 
 
-
 ✨ Features
 🎯 Core Functionality
 Smart Search - Instant image search with real-time query updates
@@ -15,6 +14,8 @@ Dynamic Loading - Smooth image loading
 Responsive Grid - Beautiful masonry-style image gallery
 Image Counter - Track loaded images in real-time
 
+
+
 🎨 Design Highlights
 Dark Theme - Eye-friendly dark interface with vibrant cyan accents
 Smooth Animations - Butter-smooth transitions and hover effects
@@ -22,11 +23,17 @@ Modern UI/UX - Clean, intuitive interface with gradient text effects
 Mobile Responsive - Seamless experience across all devices
 Glassmorphism Effects - Beautiful frosted glass styling on cards
 
+
+
+
 🛠️ Technologies Used
 HTML5 - Semantic markup structure
 CSS3 - Advanced styling with flexbox, gradients, and animations
 JavaScript (ES6+) - Modern JS for functionality
 Unsplash API - High-quality image source (integrable)
+
+
+
 
 📦 Project Structure
 image-search-app/
@@ -36,10 +43,19 @@ image-search-app/
 ├── script.js           
 └── README.md          
 
+
+
+
+
 🚀 Getting Started
 Prerequisites
 A modern web browser (Chrome, Firefox, Safari, Edge)
 Basic knowledge of HTML/CSS/JS (for customization)
+
+
+
+
+
 
 Installation
 1.Clone the repository
@@ -53,6 +69,7 @@ cd image-search-app
 
 👨‍💻 Author
 yashJadhav0504
+
 
 
 
