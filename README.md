@@ -1,9 +1,9 @@
-✨ Image Search App
+# ✨ Image Search App
 A stunning, modern image search application built with vanilla HTML, CSS, and JavaScript. Features a beautiful dark-themed UI with smooth animations and category-based filtering.
 
 <img width="527" height="527" alt="Screenshot (106)" src="https://github.com/user-attachments/assets/ba159339-a845-473e-96a1-35c160f74075" />
 
-# ✨ Image Search App
+
 
 ## 🎯 Core Features
 - **Smart Search** – Instantly search images with real-time query updates.  
@@ -45,5 +45,7 @@ cd image-search-app
 
 👨‍💻 Author
 Yash Jadhav
+
 GitHub: yashJadhav0504
+
 
