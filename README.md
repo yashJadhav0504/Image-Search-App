@@ -2,9 +2,12 @@
 A stunning, modern image search application built with vanilla HTML, CSS, and JavaScript. Features a beautiful dark-themed UI with smooth animations and category-based filtering.
 
 <img width="527" height="527" alt="Screenshot (106)" src="https://github.com/user-attachments/assets/ba159339-a845-473e-96a1-35c160f74075" />
+
+
+
+
+
 ✨ Features
-
-
 🎯 Core Functionality
 Smart Search - Instant image search with real-time query updates
 Category Filters - Quick access to popular categories (Nature, Technology, Animals, Food, etc.)
@@ -50,6 +53,7 @@ cd image-search-app
 
 👨‍💻 Author
 yashJadhav0504
+
 
 
 
