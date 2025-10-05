@@ -36,8 +36,7 @@ image-search-app/
 ## 🚀 Getting Started
 
 ### Prerequisites
-- A modern web browser (Chrome, Firefox, Safari, Edge)  
-- Basic knowledge of HTML, CSS, and JS for customization  
+- A modern web browser (Chrome, Firefox, Safari, Edge)    
 
 1. **Clone the repository**  
 git clone https://github.com/yourusername/image-search-app.git
@@ -45,11 +44,8 @@ cd image-search-app
 
 LIVE DEMO LINK:https://advanced-image-search.netlify.app/
 
-
-👨‍💻 Author
-Yash Jadhav
-
 GitHub: yashJadhav0504
+
 
 
 
